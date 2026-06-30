@@ -15,7 +15,7 @@ def matmul_naive(A: np.ndarray, B: np.ndarray) -> np.ndarray:
     assert K == K2, "Inner dimensions must match"
     
     # Initialize result matrix with zeros
-    C = np.zeros((M, N))
+    C = np.zeros((M, N)) # starts with an empty grid 
     
     # Your code here
     for i in range(M):
@@ -32,7 +32,7 @@ def matmul_vectorized(A: np.ndarray, B: np.ndarray) -> np.ndarray:
     # Your code here
     C = A @ B
     return C
-    pass
+
 
 if __name__ == "__main__":
     A = np.array([[1, 2], [3, 4]])
