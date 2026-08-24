@@ -25,7 +25,7 @@ def elementwise_ops(a: np.ndarray, b: np.ndarray) -> Dict[str, np.ndarray]:
     }
    
     
-    pass
+    
 if __name__ == "__main__":
     a = np.array([[1, 2], [3, 4]])
     b = np.array([[5, 6], [7, 8]])
