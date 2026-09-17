@@ -15,6 +15,7 @@ def matmul_naive(A: np.ndarray, B: np.ndarray) -> np.ndarray:
     assert K == K2, "Inner dimensions must match"
     
     # Initialize result matrix with zeros
+    
     C = np.zeros((M, N)) # starts with an empty grid 
     
     # Your code here
